@@ -48,28 +48,28 @@
 		3B743582259E2E71EE77D0FEBC364215 /* WPExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPExtension.release.xcconfig; sourceTree = "<group>"; };
 		42AAE8DFDC20B3DA949B577BB09D17DD /* Pods-WPExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4360BC084E564A70BB60ED587DA803ED /* Pods-WPExtension_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPExtension_Example-Info.plist"; sourceTree = "<group>"; };
-		43B1680E6986BC400F6F7894F97D5809 /* WPExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WPExtension.framework; path = WPExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B1680E6986BC400F6F7894F97D5809 /* WPExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WPExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5068E19ECE4B6623E537B7CBE0F83A99 /* Pods-WPExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		52A973225632F63C31AB9E1010B18B91 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		52A973225632F63C31AB9E1010B18B91 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5398EA53FC75505C220BD782C4C2F5E2 /* Pods-WPExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WPExtension_Tests-dummy.m"; sourceTree = "<group>"; };
 		5C903AC84667E7F4199A9A39466E5E44 /* WPExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPExtension-umbrella.h"; sourceTree = "<group>"; };
 		751E38D39FD98E7A976B65AA88F5A4CF /* Pods-WPExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WPExtension_Example.modulemap"; sourceTree = "<group>"; };
 		75AB21AC47ACD26E28C74D0E11064BCA /* Pods-WPExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		78DE5E478537DC65A07B21A6950285DC /* Pods-WPExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WPExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7B486C6E7A6ED7EA899CED147644AA79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7B486C6E7A6ED7EA899CED147644AA79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		821369BDB854ED2F10F44A1B17A4CB79 /* Pods-WPExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
 		85D73F31E12DC7DDD839E7BEC7FDDD15 /* Pods-WPExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WPExtension_Tests.modulemap"; sourceTree = "<group>"; };
 		981B21F929DD9CF14B0902CBF114A3CD /* WPExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPExtension-prefix.pch"; sourceTree = "<group>"; };
-		9B95996E3D015D0929063A4CC82B874E /* Pods_WPExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WPExtension_Tests.framework; path = "Pods-WPExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B95996E3D015D0929063A4CC82B874E /* Pods_WPExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C619ABD46D01D3F3C67FD8E5EB23BD90 /* Pods-WPExtension_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPExtension_Tests-Info.plist"; sourceTree = "<group>"; };
 		CB7E440522746D023EE37E94D23CE0BC /* WPExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WPExtension.modulemap; sourceTree = "<group>"; };
-		CBC43F600C1EF7305A588021E9DF3640 /* WPExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WPExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CBC43F600C1EF7305A588021E9DF3640 /* WPExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WPExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DCA923447C7DD9EB3BDC44A280EDD45F /* WPExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPExtension.debug.xcconfig; sourceTree = "<group>"; };
 		E931EBC20D9B0FBE9B74A29B410882B6 /* Pods-WPExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WPExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EB29C198132A72DFF9F938084378C1D0 /* Pods-WPExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F49A20945E65AAF577D800D7EBCEAA25 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WPExtension/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		F9CBC32F0EE0AD38C1236BF356F8BA50 /* Pods_WPExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WPExtension_Example.framework; path = "Pods-WPExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9CBC32F0EE0AD38C1236BF356F8BA50 /* Pods_WPExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -591,8 +591,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
