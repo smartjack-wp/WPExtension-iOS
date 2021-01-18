@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WPExtension_Example' do
+  pod 'WPExtension', :path => '../'
+
+  target 'WPExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
