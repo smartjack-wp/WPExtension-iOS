@@ -1,0 +1,6 @@
+framework module Pods_WPExtension_Example {
+  umbrella header "Pods-WPExtension_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

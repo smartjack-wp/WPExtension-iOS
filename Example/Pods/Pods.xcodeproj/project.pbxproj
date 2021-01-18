@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C285EAF8E45AF74F016073AD6DF50F2 /* Pods-WPExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5398EA53FC75505C220BD782C4C2F5E2 /* Pods-WPExtension_Tests-dummy.m */; };
+		0C9449024040BD5A94459DE4F254CE0C /* Pods-WPExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DE5E478537DC65A07B21A6950285DC /* Pods-WPExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2247212AA7977C6C05FFE93B9BEE2467 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A20945E65AAF577D800D7EBCEAA25 /* ReplaceMe.swift */; };
+		627F12A1138661C4DB920B9000F44DAD /* Pods-WPExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B1A8FFA292DC93F08627426082102A /* Pods-WPExtension_Example-dummy.m */; };
+		789DF29A1479BE889E7C8606A96857F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A5E226C065C45511E451F34C10B59386 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BB5AFACC9A9B6B154EECB00874111310 /* Pods-WPExtension_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 297B53FB2ABEEF93E1E1411E3C329EF8 /* Pods-WPExtension_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3A3603EB673ED0AB7EDC374B0F0CBDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CBC94EE031A0110DCE7AEE35D27A8419 /* WPExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 064C63F2D7E9AC6E0FA16D10A867B6D1 /* WPExtension-dummy.m */; };
+		EB145832991E2E83A727E62F1165B18B /* WPExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C903AC84667E7F4199A9A39466E5E44 /* WPExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2363245FB0233D31C211FAB618561F0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D8105367C1A8478FC96B48714536BB1;
+			remoteInfo = WPExtension;
+		};
+		C70DF5B557CCCD06BEB8DC3E526C11BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A3689E0099DB47CF60AC25358FAE57D;
+			remoteInfo = "Pods-WPExtension_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064C63F2D7E9AC6E0FA16D10A867B6D1 /* WPExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WPExtension-dummy.m"; sourceTree = "<group>"; };
+		0AA689FB0D01C2738AA372FD1D5272AC /* Pods-WPExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		11B1A8FFA292DC93F08627426082102A /* Pods-WPExtension_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WPExtension_Example-dummy.m"; sourceTree = "<group>"; };
+		11E20887273EE23925152541EE861C61 /* WPExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WPExtension-Info.plist"; sourceTree = "<group>"; };
+		269DCC195CA74FC490FCDCB4797A99A8 /* Pods-WPExtension_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WPExtension_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2912E5BE55771983712BEC5B8DB85D92 /* Pods-WPExtension_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WPExtension_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		297B53FB2ABEEF93E1E1411E3C329EF8 /* Pods-WPExtension_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WPExtension_Example-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B743582259E2E71EE77D0FEBC364215 /* WPExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPExtension.release.xcconfig; sourceTree = "<group>"; };
+		42AAE8DFDC20B3DA949B577BB09D17DD /* Pods-WPExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4360BC084E564A70BB60ED587DA803ED /* Pods-WPExtension_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPExtension_Example-Info.plist"; sourceTree = "<group>"; };
+		43B1680E6986BC400F6F7894F97D5809 /* WPExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WPExtension.framework; path = WPExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5068E19ECE4B6623E537B7CBE0F83A99 /* Pods-WPExtension_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPExtension_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		52A973225632F63C31AB9E1010B18B91 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5398EA53FC75505C220BD782C4C2F5E2 /* Pods-WPExtension_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WPExtension_Tests-dummy.m"; sourceTree = "<group>"; };
+		5C903AC84667E7F4199A9A39466E5E44 /* WPExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPExtension-umbrella.h"; sourceTree = "<group>"; };
+		751E38D39FD98E7A976B65AA88F5A4CF /* Pods-WPExtension_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WPExtension_Example.modulemap"; sourceTree = "<group>"; };
+		75AB21AC47ACD26E28C74D0E11064BCA /* Pods-WPExtension_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPExtension_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		78DE5E478537DC65A07B21A6950285DC /* Pods-WPExtension_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WPExtension_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7B486C6E7A6ED7EA899CED147644AA79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		821369BDB854ED2F10F44A1B17A4CB79 /* Pods-WPExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
+		85D73F31E12DC7DDD839E7BEC7FDDD15 /* Pods-WPExtension_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WPExtension_Tests.modulemap"; sourceTree = "<group>"; };
+		981B21F929DD9CF14B0902CBF114A3CD /* WPExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPExtension-prefix.pch"; sourceTree = "<group>"; };
+		9B95996E3D015D0929063A4CC82B874E /* Pods_WPExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WPExtension_Tests.framework; path = "Pods-WPExtension_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C619ABD46D01D3F3C67FD8E5EB23BD90 /* Pods-WPExtension_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPExtension_Tests-Info.plist"; sourceTree = "<group>"; };
+		CB7E440522746D023EE37E94D23CE0BC /* WPExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WPExtension.modulemap; sourceTree = "<group>"; };
+		CBC43F600C1EF7305A588021E9DF3640 /* WPExtension.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WPExtension.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DCA923447C7DD9EB3BDC44A280EDD45F /* WPExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPExtension.debug.xcconfig; sourceTree = "<group>"; };
+		E931EBC20D9B0FBE9B74A29B410882B6 /* Pods-WPExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WPExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EB29C198132A72DFF9F938084378C1D0 /* Pods-WPExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F49A20945E65AAF577D800D7EBCEAA25 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WPExtension/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F9CBC32F0EE0AD38C1236BF356F8BA50 /* Pods_WPExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WPExtension_Example.framework; path = "Pods-WPExtension_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3117D0538849D8AAA7DA0218A7FF078F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5E226C065C45511E451F34C10B59386 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE36F1395C54811BF1AE54D0F8C3BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789DF29A1479BE889E7C8606A96857F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81095040870FB2D69DB46536BC1D4BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A3603EB673ED0AB7EDC374B0F0CBDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183D9091EE26357DB2E3356E98CBDF66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9CBC32F0EE0AD38C1236BF356F8BA50 /* Pods_WPExtension_Example.framework */,
+				9B95996E3D015D0929063A4CC82B874E /* Pods_WPExtension_Tests.framework */,
+				43B1680E6986BC400F6F7894F97D5809 /* WPExtension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38969FAE0A3B7CCEEAF08D0175D3799C /* WPExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F49A20945E65AAF577D800D7EBCEAA25 /* ReplaceMe.swift */,
+				ECBB95BC33DB0DD8D3E64E8875EF691D /* Pod */,
+				D5B3021ABBDF8F5E517D588B8D724D86 /* Support Files */,
+			);
+			name = WPExtension;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		403C8417895020509A526E115D8CD171 /* Pods-WPExtension_Example */ = {
+			isa = PBXGroup;
+			children = (
+				751E38D39FD98E7A976B65AA88F5A4CF /* Pods-WPExtension_Example.modulemap */,
+				2912E5BE55771983712BEC5B8DB85D92 /* Pods-WPExtension_Example-acknowledgements.markdown */,
+				5068E19ECE4B6623E537B7CBE0F83A99 /* Pods-WPExtension_Example-acknowledgements.plist */,
+				11B1A8FFA292DC93F08627426082102A /* Pods-WPExtension_Example-dummy.m */,
+				E931EBC20D9B0FBE9B74A29B410882B6 /* Pods-WPExtension_Example-frameworks.sh */,
+				4360BC084E564A70BB60ED587DA803ED /* Pods-WPExtension_Example-Info.plist */,
+				297B53FB2ABEEF93E1E1411E3C329EF8 /* Pods-WPExtension_Example-umbrella.h */,
+				EB29C198132A72DFF9F938084378C1D0 /* Pods-WPExtension_Example.debug.xcconfig */,
+				821369BDB854ED2F10F44A1B17A4CB79 /* Pods-WPExtension_Example.release.xcconfig */,
+			);
+			name = "Pods-WPExtension_Example";
+			path = "Target Support Files/Pods-WPExtension_Example";
+			sourceTree = "<group>";
+		};
+		5DE9AC6AFB363F46B9DDC61F7714C9ED /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38969FAE0A3B7CCEEAF08D0175D3799C /* WPExtension */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5EC2910D1100429CAA5C5CC1F24EA641 /* Pods-WPExtension_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				85D73F31E12DC7DDD839E7BEC7FDDD15 /* Pods-WPExtension_Tests.modulemap */,
+				269DCC195CA74FC490FCDCB4797A99A8 /* Pods-WPExtension_Tests-acknowledgements.markdown */,
+				75AB21AC47ACD26E28C74D0E11064BCA /* Pods-WPExtension_Tests-acknowledgements.plist */,
+				5398EA53FC75505C220BD782C4C2F5E2 /* Pods-WPExtension_Tests-dummy.m */,
+				C619ABD46D01D3F3C67FD8E5EB23BD90 /* Pods-WPExtension_Tests-Info.plist */,
+				78DE5E478537DC65A07B21A6950285DC /* Pods-WPExtension_Tests-umbrella.h */,
+				0AA689FB0D01C2738AA372FD1D5272AC /* Pods-WPExtension_Tests.debug.xcconfig */,
+				42AAE8DFDC20B3DA949B577BB09D17DD /* Pods-WPExtension_Tests.release.xcconfig */,
+			);
+			name = "Pods-WPExtension_Tests";
+			path = "Target Support Files/Pods-WPExtension_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5DE9AC6AFB363F46B9DDC61F7714C9ED /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				183D9091EE26357DB2E3356E98CBDF66 /* Products */,
+				F3085E98E79D01C0C57AF1BF41FDF92C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5B3021ABBDF8F5E517D588B8D724D86 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB7E440522746D023EE37E94D23CE0BC /* WPExtension.modulemap */,
+				064C63F2D7E9AC6E0FA16D10A867B6D1 /* WPExtension-dummy.m */,
+				11E20887273EE23925152541EE861C61 /* WPExtension-Info.plist */,
+				981B21F929DD9CF14B0902CBF114A3CD /* WPExtension-prefix.pch */,
+				5C903AC84667E7F4199A9A39466E5E44 /* WPExtension-umbrella.h */,
+				DCA923447C7DD9EB3BDC44A280EDD45F /* WPExtension.debug.xcconfig */,
+				3B743582259E2E71EE77D0FEBC364215 /* WPExtension.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WPExtension";
+			sourceTree = "<group>";
+		};
+		ECBB95BC33DB0DD8D3E64E8875EF691D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				52A973225632F63C31AB9E1010B18B91 /* LICENSE */,
+				7B486C6E7A6ED7EA899CED147644AA79 /* README.md */,
+				CBC43F600C1EF7305A588021E9DF3640 /* WPExtension.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F3085E98E79D01C0C57AF1BF41FDF92C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				403C8417895020509A526E115D8CD171 /* Pods-WPExtension_Example */,
+				5EC2910D1100429CAA5C5CC1F24EA641 /* Pods-WPExtension_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		54D6F65F874829F047A715F137F0C7F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB145832991E2E83A727E62F1165B18B /* WPExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AFBC2D3F14310EA242A92E0AC1E96BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5AFACC9A9B6B154EECB00874111310 /* Pods-WPExtension_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85BB037275EB8828D31276F02B6F25F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C9449024040BD5A94459DE4F254CE0C /* Pods-WPExtension_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FAFAD79EA8463E4B0870898D42D49BA /* Pods-WPExtension_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3AD74D9039072C346C0CD71F92A9051 /* Build configuration list for PBXNativeTarget "Pods-WPExtension_Tests" */;
+			buildPhases = (
+				85BB037275EB8828D31276F02B6F25F1 /* Headers */,
+				9505C5AFFE052F4F0FA389323016DDBD /* Sources */,
+				3117D0538849D8AAA7DA0218A7FF078F /* Frameworks */,
+				A1352E9BCD08B78E9A8750B016B7AF1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F19DEBF323EC2BA45246CF68B08E057 /* PBXTargetDependency */,
+			);
+			name = "Pods-WPExtension_Tests";
+			productName = "Pods-WPExtension_Tests";
+			productReference = 9B95996E3D015D0929063A4CC82B874E /* Pods_WPExtension_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1D8105367C1A8478FC96B48714536BB1 /* WPExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B570B71D34B7C7724D07F1E8DE74496 /* Build configuration list for PBXNativeTarget "WPExtension" */;
+			buildPhases = (
+				54D6F65F874829F047A715F137F0C7F1 /* Headers */,
+				33C20C6E8222C62C4032DF192E19A718 /* Sources */,
+				4EE36F1395C54811BF1AE54D0F8C3BF4 /* Frameworks */,
+				818C1911CD621A9DB7592CA86D67DA3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPExtension;
+			productName = WPExtension;
+			productReference = 43B1680E6986BC400F6F7894F97D5809 /* WPExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A3689E0099DB47CF60AC25358FAE57D /* Pods-WPExtension_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CCD444246104E1DA93D79CC6F588642 /* Build configuration list for PBXNativeTarget "Pods-WPExtension_Example" */;
+			buildPhases = (
+				5AFBC2D3F14310EA242A92E0AC1E96BD /* Headers */,
+				236CA1D7D21A9C1313280535D308DC66 /* Sources */,
+				81095040870FB2D69DB46536BC1D4BFA /* Frameworks */,
+				707E729BA48CCBF40D8BB95AD8787875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30B0CEAD23D6E3BAA45534FE01753430 /* PBXTargetDependency */,
+			);
+			name = "Pods-WPExtension_Example";
+			productName = "Pods-WPExtension_Example";
+			productReference = F9CBC32F0EE0AD38C1236BF356F8BA50 /* Pods_WPExtension_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 183D9091EE26357DB2E3356E98CBDF66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A3689E0099DB47CF60AC25358FAE57D /* Pods-WPExtension_Example */,
+				0FAFAD79EA8463E4B0870898D42D49BA /* Pods-WPExtension_Tests */,
+				1D8105367C1A8478FC96B48714536BB1 /* WPExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		707E729BA48CCBF40D8BB95AD8787875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818C1911CD621A9DB7592CA86D67DA3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1352E9BCD08B78E9A8750B016B7AF1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		236CA1D7D21A9C1313280535D308DC66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627F12A1138661C4DB920B9000F44DAD /* Pods-WPExtension_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C20C6E8222C62C4032DF192E19A718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2247212AA7977C6C05FFE93B9BEE2467 /* ReplaceMe.swift in Sources */,
+				CBC94EE031A0110DCE7AEE35D27A8419 /* WPExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9505C5AFFE052F4F0FA389323016DDBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C285EAF8E45AF74F016073AD6DF50F2 /* Pods-WPExtension_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F19DEBF323EC2BA45246CF68B08E057 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WPExtension_Example";
+			target = 8A3689E0099DB47CF60AC25358FAE57D /* Pods-WPExtension_Example */;
+			targetProxy = C70DF5B557CCCD06BEB8DC3E526C11BB /* PBXContainerItemProxy */;
+		};
+		30B0CEAD23D6E3BAA45534FE01753430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WPExtension;
+			target = 1D8105367C1A8478FC96B48714536BB1 /* WPExtension */;
+			targetProxy = 2363245FB0233D31C211FAB618561F0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3AFEEBBDCDEB07B9FEF1B4214244A2C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB29C198132A72DFF9F938084378C1D0 /* Pods-WPExtension_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WPExtension_Example/Pods-WPExtension_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WPExtension_Example/Pods-WPExtension_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4EC9DE0844E68D10F63A3B13F2F7BE7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA923447C7DD9EB3BDC44A280EDD45F /* WPExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WPExtension/WPExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WPExtension/WPExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WPExtension/WPExtension.modulemap";
+				PRODUCT_MODULE_NAME = WPExtension;
+				PRODUCT_NAME = WPExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		755EC7F9277A66B1AC0CCDEB9530AF64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42AAE8DFDC20B3DA949B577BB09D17DD /* Pods-WPExtension_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WPExtension_Tests/Pods-WPExtension_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WPExtension_Tests/Pods-WPExtension_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84AD27AFBAD39C2F819FB62A5FB87E42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821369BDB854ED2F10F44A1B17A4CB79 /* Pods-WPExtension_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WPExtension_Example/Pods-WPExtension_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WPExtension_Example/Pods-WPExtension_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A7306E94BBC13A16C7CA74E50EACBBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B743582259E2E71EE77D0FEBC364215 /* WPExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WPExtension/WPExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WPExtension/WPExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WPExtension/WPExtension.modulemap";
+				PRODUCT_MODULE_NAME = WPExtension;
+				PRODUCT_NAME = WPExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA17251A9B0EAE1E2A3453029308BBFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA689FB0D01C2738AA372FD1D5272AC /* Pods-WPExtension_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WPExtension_Tests/Pods-WPExtension_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WPExtension_Tests/Pods-WPExtension_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B570B71D34B7C7724D07F1E8DE74496 /* Build configuration list for PBXNativeTarget "WPExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EC9DE0844E68D10F63A3B13F2F7BE7C /* Debug */,
+				A7306E94BBC13A16C7CA74E50EACBBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CCD444246104E1DA93D79CC6F588642 /* Build configuration list for PBXNativeTarget "Pods-WPExtension_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFEEBBDCDEB07B9FEF1B4214244A2C6 /* Debug */,
+				84AD27AFBAD39C2F819FB62A5FB87E42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3AD74D9039072C346C0CD71F92A9051 /* Build configuration list for PBXNativeTarget "Pods-WPExtension_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA17251A9B0EAE1E2A3453029308BBFE /* Debug */,
+				755EC7F9277A66B1AC0CCDEB9530AF64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

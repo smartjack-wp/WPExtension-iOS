@@ -1,0 +1,16 @@
+PODS:
+  - WPExtension (0.1.0)
+
+DEPENDENCIES:
+  - WPExtension (from `../`)
+
+EXTERNAL SOURCES:
+  WPExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WPExtension: bc02732a734e93fc6182def8347da56fe05b7e4b
+
+PODFILE CHECKSUM: 79bad7efacaef554944dc823516d1586a3858067
+
+COCOAPODS: 1.9.1

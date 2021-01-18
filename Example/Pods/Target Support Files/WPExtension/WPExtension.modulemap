@@ -1,0 +1,6 @@
+framework module WPExtension {
+  umbrella header "WPExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
