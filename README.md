@@ -1,9 +1,8 @@
 # WPExtension
 
-[![CI Status](https://img.shields.io/travis/devarrns/WPExtension.svg?style=flat)](https://travis-ci.org/devarrns/WPExtension)
-[![Version](https://img.shields.io/cocoapods/v/WPExtension.svg?style=flat)](https://cocoapods.org/pods/WPExtension)
-[![License](https://img.shields.io/cocoapods/l/WPExtension.svg?style=flat)](https://cocoapods.org/pods/WPExtension)
-[![Platform](https://img.shields.io/cocoapods/p/WPExtension.svg?style=flat)](https://cocoapods.org/pods/WPExtension)
+![Swift Version](https://img.shields.io/badge/Swift-5.0-orange)
+![Dev Target](https://img.shields.io/badge/iOS-11.0-blue)
+![Platform](https://img.shields.io/badge/Platform-iOS-lightrey)
 
 ## Example
 
@@ -11,18 +10,20 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+- Swift 5
+- iOS Development Target 11.0
+
 ## Installation
 
-WPExtension is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+To install it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'WPExtension'
+pod 'WPExtension', :git => 'https://github.com/smartjack-wp/WPExtension-iOS'
 ```
 
 ## Author
 
-devarrns, sopthfg@gmail.com
+onemoon, onemoonstudio@gmail.com
 
 ## License
 

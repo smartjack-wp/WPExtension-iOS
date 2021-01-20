@@ -21,11 +21,7 @@ public extension Float {
             return nil
         }
         
-        if intAndDecimalSubStrings.count == 1 {
-            
-            return intString + ".0"
-            
-        } else if intAndDecimalSubStrings.count == 2 {
+        if intAndDecimalSubStrings.count == 2 {
             var result = ""
             let decimalString = String(intAndDecimalSubStrings[1])
             var stringEndIndexOffset: Int {
@@ -47,7 +43,7 @@ public extension Float {
             return result
             
         } else {
-            return nil
+            return intString + ".0"
         }
     }
 }
