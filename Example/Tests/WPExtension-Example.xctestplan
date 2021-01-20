@@ -1,0 +1,42 @@
+{
+  "configurations" : [
+    {
+      "id" : "A9B20245-45C1-4471-A75C-853C42211E97",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:Pods\/Pods.xcodeproj",
+          "identifier" : "1D8105367C1A8478FC96B48714536BB1",
+          "name" : "WPExtension"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:WPExtension.xcodeproj",
+      "identifier" : "607FACCF1AFB9204008FA782",
+      "name" : "WPExtension_Example"
+    }
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "IntExtensionTests",
+        "StringTests",
+        "Tests"
+      ],
+      "target" : {
+        "containerPath" : "container:WPExtension.xcodeproj",
+        "identifier" : "607FACE41AFB9204008FA782",
+        "name" : "WPExtension_Tests"
+      }
+    }
+  ],
+  "version" : 1
+}

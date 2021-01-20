@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import WPExtension
 
 class ViewController: UIViewController {
 

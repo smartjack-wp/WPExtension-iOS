@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0C285EAF8E45AF74F016073AD6DF50F2 /* Pods-WPExtension_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5398EA53FC75505C220BD782C4C2F5E2 /* Pods-WPExtension_Tests-dummy.m */; };
 		0C9449024040BD5A94459DE4F254CE0C /* Pods-WPExtension_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DE5E478537DC65A07B21A6950285DC /* Pods-WPExtension_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2247212AA7977C6C05FFE93B9BEE2467 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A20945E65AAF577D800D7EBCEAA25 /* ReplaceMe.swift */; };
 		627F12A1138661C4DB920B9000F44DAD /* Pods-WPExtension_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B1A8FFA292DC93F08627426082102A /* Pods-WPExtension_Example-dummy.m */; };
 		789DF29A1479BE889E7C8606A96857F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A5E226C065C45511E451F34C10B59386 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -17,6 +16,8 @@
 		C3A3603EB673ED0AB7EDC374B0F0CBDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		CBC94EE031A0110DCE7AEE35D27A8419 /* WPExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 064C63F2D7E9AC6E0FA16D10A867B6D1 /* WPExtension-dummy.m */; };
 		EB145832991E2E83A727E62F1165B18B /* WPExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C903AC84667E7F4199A9A39466E5E44 /* WPExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE39D93125B7F62F0013B2C4 /* Float+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE39D93025B7F62F0013B2C4 /* Float+Extension.swift */; };
+		FE582B7925B57DC5005400D0 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE582B7825B57DC5005400D0 /* Int+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,8 +69,9 @@
 		DCA923447C7DD9EB3BDC44A280EDD45F /* WPExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPExtension.debug.xcconfig; sourceTree = "<group>"; };
 		E931EBC20D9B0FBE9B74A29B410882B6 /* Pods-WPExtension_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WPExtension_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EB29C198132A72DFF9F938084378C1D0 /* Pods-WPExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F49A20945E65AAF577D800D7EBCEAA25 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WPExtension/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		F9CBC32F0EE0AD38C1236BF356F8BA50 /* Pods_WPExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE39D93025B7F62F0013B2C4 /* Float+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Extension.swift"; sourceTree = "<group>"; };
+		FE582B7825B57DC5005400D0 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +115,7 @@
 		38969FAE0A3B7CCEEAF08D0175D3799C /* WPExtension */ = {
 			isa = PBXGroup;
 			children = (
-				F49A20945E65AAF577D800D7EBCEAA25 /* ReplaceMe.swift */,
+				FE582B3025B56F11005400D0 /* Classes */,
 				ECBB95BC33DB0DD8D3E64E8875EF691D /* Pod */,
 				D5B3021ABBDF8F5E517D588B8D724D86 /* Support Files */,
 			);
@@ -223,6 +225,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		FE582B3025B56F11005400D0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FE582B7825B57DC5005400D0 /* Int+Extension.swift */,
+				FE39D93025B7F62F0013B2C4 /* Float+Extension.swift */,
+			);
+			name = Classes;
+			path = WPExtension/Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -317,6 +329,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					8A3689E0099DB47CF60AC25358FAE57D = {
+						LastSwiftMigration = 1230;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -375,7 +392,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2247212AA7977C6C05FFE93B9BEE2467 /* ReplaceMe.swift in Sources */,
+				FE582B7925B57DC5005400D0 /* Int+Extension.swift in Sources */,
+				FE39D93125B7F62F0013B2C4 /* Float+Extension.swift in Sources */,
 				CBC94EE031A0110DCE7AEE35D27A8419 /* WPExtension-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +429,7 @@
 			baseConfigurationReference = EB29C198132A72DFF9F938084378C1D0 /* Pods-WPExtension_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -433,6 +452,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -509,6 +530,7 @@
 			baseConfigurationReference = 821369BDB854ED2F10F44A1B17A4CB79 /* Pods-WPExtension_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -531,6 +553,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
