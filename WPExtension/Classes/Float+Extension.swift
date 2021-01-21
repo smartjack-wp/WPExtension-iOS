@@ -10,12 +10,11 @@ import Foundation
 public extension Float {
     /**
      
-     - Parameter decimalPointCount: 나타내고 싶은 자리수
-     - Returns: description 참조
+     숫자의 천의 단위에 맞춰서 , 가 삽입된 스트링
      
      [ Int , Float 에 구현됨 ]
      
-     숫자의 천의 단위에 맞춰서 , 가 삽입된 스트링
+     parameter 는 소수점 아래 나타내고 싶은 자리수를 받는다.
      
      소수점 아래자리의 경우 until 로 지정한 자리수 중에 마지막이 0 으로 끝나는 수는 0이 자연스럽게 제거되어 자연스럽게 보이도록 하였다. 예를 들어서 1.0002 (until: 2) 인 경우 1.0 으로 변경된다.
      
@@ -25,7 +24,7 @@ public extension Float {
      ---
      ```
      let value = 1234.56
-     value.commaInsertedString(until: 2) => "1,234.56"
+     value.commaInsertedPerThousandString(until: 2) => "1,234.56"
      ```
      
      TestCase
@@ -46,13 +45,13 @@ public extension Float {
      
      Author : onemoon
      */
-    func commaInsertedString(until decimalPointCount: UInt = 0) -> String {
-        guard decimalPointCount != 0 else { return Int(self).commaInsertedString }
+    func commaInsertedPerThousandString(until decimalPointCount: UInt = 0) -> String {
+        guard decimalPointCount != 0 else { return Int(self).commaInsertedPerThousandString }
         
         let valueString = String(self)
         let intAndDecimalSubStrings = valueString.split(separator: ".")
         
-        guard let intString = Int(String(intAndDecimalSubStrings[0]))?.commaInsertedString, intAndDecimalSubStrings.count == 2 else {
+        guard let intString = Int(String(intAndDecimalSubStrings[0]))?.commaInsertedPerThousandString, intAndDecimalSubStrings.count == 2 else {
             return ""
         }
         

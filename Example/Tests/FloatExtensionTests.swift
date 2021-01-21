@@ -20,19 +20,18 @@ class FloatExtensionTests: XCTestCase {
     
     func testCommaInsertedString() {
         
-        XCTAssertEqual(Float(1).commaInsertedString(), "1")
+        XCTAssertEqual(Float(1).commaInsertedPerThousandString(), "1")
 
-        XCTAssertEqual(Float(1).commaInsertedString(until: 2), "1.0")
+        XCTAssertEqual(Float(1).commaInsertedPerThousandString(until: 2), "1.0")
 
-        XCTAssertEqual(Float(-1234.5).commaInsertedString(), "-1,234")
+        XCTAssertEqual(Float(-1234.5).commaInsertedPerThousandString(), "-1,234")
 
-        XCTAssertEqual(Float(1234.56).commaInsertedString(until: 2), "1,234.56")
+        XCTAssertEqual(Float(1234.56).commaInsertedPerThousandString(until: 2), "1,234.56")
 
-        XCTAssertEqual(Float(1234.56).commaInsertedString(until: 4), "1,234.56")
+        XCTAssertEqual(Float(1234.56).commaInsertedPerThousandString(until: 4), "1,234.56")
 
-        XCTAssertEqual(Float(0.001).commaInsertedString(until: 2), "0.0")
+        XCTAssertEqual(Float(0.001).commaInsertedPerThousandString(until: 2), "0.0")
 
-        XCTAssertEqual(Float(0.001).commaInsertedString(until: 4), "0.001")
+        XCTAssertEqual(Float(0.001).commaInsertedPerThousandString(until: 4), "0.001")
     }
-
 }

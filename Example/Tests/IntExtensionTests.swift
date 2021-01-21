@@ -19,11 +19,11 @@ class IntExtensionTests: XCTestCase {
     }
 
     func testCommaInsertedString() {
-        XCTAssertEqual(12345.commaInsertedString, "12,345")
-        XCTAssertEqual(1234.commaInsertedString, "1,234")
-        XCTAssertEqual(123.commaInsertedString, "123")
-        XCTAssertEqual(0003.commaInsertedString, "3")
-        XCTAssertEqual(0.commaInsertedString, "0")
-        XCTAssertEqual((-1234).commaInsertedString, "-1,234", "negative value")
+        XCTAssertEqual(12345.commaInsertedPerThousandString, "12,345")
+        XCTAssertEqual(1234.commaInsertedPerThousandString, "1,234")
+        XCTAssertEqual(123.commaInsertedPerThousandString, "123")
+        XCTAssertEqual(0003.commaInsertedPerThousandString, "3")
+        XCTAssertEqual(0.commaInsertedPerThousandString, "0")
+        XCTAssertEqual((-1234).commaInsertedPerThousandString, "-1,234", "negative value")
     }
 }
