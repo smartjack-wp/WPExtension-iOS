@@ -19,41 +19,20 @@ class FloatExtensionTests: XCTestCase {
     }
     
     func testCommaInsertedString() {
-        if let value = Float(1234.5).commaInsertedString() {
-            XCTAssertEqual(value, "1,234")
-        } else {
-            XCTFail("1 > nil")
-        }
         
-        if let value = Float(-1234.5).commaInsertedString() {
-            XCTAssertEqual(value, "-1,234")
-        } else {
-            XCTFail("2 > nil")
-        }
-        
-        if let value = Float(1234.56).commaInsertedString(until: 2) {
-            XCTAssertEqual(value, "1,234.56")
-        } else {
-            XCTFail("3 > nil")
-        }
-        
-        if let value = Float(1234.56).commaInsertedString(until: 4) {
-            XCTAssertEqual(value, "1,234.56")
-        } else {
-            XCTFail("4 > nil")
-        }
-        
-        if let value = Float(0.001).commaInsertedString(until: 2) {
-            XCTAssertEqual(value, "0.0")
-        } else {
-            XCTFail("5 > nil")
-        }
-        
-        if let value = Float(0.001).commaInsertedString(until: 4) {
-            XCTAssertEqual(value, "0.001")
-        } else {
-            XCTFail("6 > nil")
-        }
+        XCTAssertEqual(Float(1).commaInsertedString(), "1")
+
+        XCTAssertEqual(Float(1).commaInsertedString(until: 2), "1.0")
+
+        XCTAssertEqual(Float(-1234.5).commaInsertedString(), "-1,234")
+
+        XCTAssertEqual(Float(1234.56).commaInsertedString(until: 2), "1,234.56")
+
+        XCTAssertEqual(Float(1234.56).commaInsertedString(until: 4), "1,234.56")
+
+        XCTAssertEqual(Float(0.001).commaInsertedString(until: 2), "0.0")
+
+        XCTAssertEqual(Float(0.001).commaInsertedString(until: 4), "0.001")
     }
 
 }

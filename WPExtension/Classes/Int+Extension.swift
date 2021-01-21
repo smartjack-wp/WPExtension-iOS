@@ -8,6 +8,35 @@
 import Foundation
 
 public extension Int {
+    /**
+     
+     See Discussion
+     
+     [ Int , Float 에 구현됨 ]
+     
+     숫자의 천의 단위에 맞춰서 , 가 삽입된 스트링
+     
+     How
+     ---
+     ```
+     let value = 1234
+     value.commaInsertedString = "1,234"
+     ```
+     
+     TestCase
+     ---
+     ```
+     12345 / 1234 / 123 / 0003 / 0 / -1234
+     
+     ```
+     
+     Additional Information
+     ---
+     Added Version : v1.0.0
+     
+     - Author
+     onemoon
+     */
     var commaInsertedString: String {
         
         var value = self
