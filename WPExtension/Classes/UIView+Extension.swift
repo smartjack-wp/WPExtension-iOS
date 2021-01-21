@@ -14,20 +14,20 @@ public extension UIView {
      isHidden의 반대값이며 조금 더 명시적인 코딩을 위해서 사용
      
      How
-     ---
+     ===
      if view.isVisible {
         ...
      }
      
      TestCase
-     ---
+     ===
      ```
      sampleView.isVisible == true
      
      ```
      
      Additional Information
-     ---
+     ===
      Added Version : v1.0.0
      
      Author : onemoon
@@ -40,18 +40,18 @@ public extension UIView {
      view.isHidden = false 대신에 조금 더 명시적이고 간단하게 사용하도록 한다.
      
      How
-     ---
+     ===
      view.show()
      
      TestCase
-     ---
+     ===
      ```
      view.show()
      
      ```
      
      Additional Information
-     ---
+     ===
      Added Version : v1.0.0
      
      Author : onemoon
@@ -66,11 +66,11 @@ public extension UIView {
      view.isHidden = true 대신에 조금 더 명시적이고 간단하게 사용하도록 한다.
      
      How
-     ---
+     ===
      view.hide()
      
      TestCase
-     ---
+     ===
      ```
      view.show()
      view.isHidden = false
@@ -78,7 +78,7 @@ public extension UIView {
      ```
      
      Additional Information
-     ---
+     ===
      Added Version : v1.0.0
      
      Author : onemoon
@@ -90,21 +90,25 @@ public extension UIView {
     /**
      여러개의 뷰를 쉽게 추가할 수 있도록 만든 함수
      
+     - Parameter views: 추가되는 여러개의 뷰
+     
      How
-     ---
+     ===
      parentView.addSubviews(aView, bView)
+     
      or
+     
      parentView.addSubviews(aView, bView, cView)
      
      TestCase
-     ---
+     ===
      ```
      parentView.addSubviews(aView, bView)
      
      ```
      
      Additional Information
-     ---
+     ===
      Added Version : v1.0.0
      
      Author : onemoon

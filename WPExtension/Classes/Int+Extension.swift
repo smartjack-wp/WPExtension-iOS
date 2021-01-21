@@ -15,14 +15,14 @@ public extension Int {
      [ Int , Float 에 구현됨 ]
      
      How
-     ---
+     ===
      ```
      let value = 1234
      value.commaInsertedPerThousandString = "1,234"
      ```
      
      TestCase
-     ---
+     ===
      ```
      12345
      1234
@@ -33,7 +33,7 @@ public extension Int {
      ```
      
      Additional Information
-     ---
+     ===
      Added Version : v1.0.0
      
      Author : onemoon
