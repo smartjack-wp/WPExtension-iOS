@@ -10,7 +10,7 @@ import Foundation
 public extension Int {
     /**
      
-     숫자의 천의 단위에 맞춰서 , 가 삽입된 스트링
+     숫자의 천의 단위에 맞춰서 콤마가 삽입된 스트링
      
      [ Int , Float 에 구현됨 ]
      
