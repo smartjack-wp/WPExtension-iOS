@@ -18,6 +18,8 @@
 		EB145832991E2E83A727E62F1165B18B /* WPExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C903AC84667E7F4199A9A39466E5E44 /* WPExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE39D93125B7F62F0013B2C4 /* Float+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE39D93025B7F62F0013B2C4 /* Float+Extension.swift */; };
 		FE39D95025B9603B0013B2C4 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE39D94F25B9603B0013B2C4 /* UIView+Extension.swift */; };
+		FE39D96325B974760013B2C4 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE39D96225B974760013B2C4 /* UITextField+Extension.swift */; };
+		FE39D96F25B978290013B2C4 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE39D96E25B978290013B2C4 /* UIStackView+Extension.swift */; };
 		FE582B7925B57DC5005400D0 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE582B7825B57DC5005400D0 /* Int+Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +75,8 @@
 		F9CBC32F0EE0AD38C1236BF356F8BA50 /* Pods_WPExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE39D93025B7F62F0013B2C4 /* Float+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Extension.swift"; sourceTree = "<group>"; };
 		FE39D94F25B9603B0013B2C4 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		FE39D96225B974760013B2C4 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		FE39D96E25B978290013B2C4 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
 		FE582B7825B57DC5005400D0 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -233,6 +237,8 @@
 				FE582B7825B57DC5005400D0 /* Int+Extension.swift */,
 				FE39D93025B7F62F0013B2C4 /* Float+Extension.swift */,
 				FE39D94F25B9603B0013B2C4 /* UIView+Extension.swift */,
+				FE39D96225B974760013B2C4 /* UITextField+Extension.swift */,
+				FE39D96E25B978290013B2C4 /* UIStackView+Extension.swift */,
 			);
 			name = Classes;
 			path = WPExtension/Classes;
@@ -395,10 +401,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE39D96325B974760013B2C4 /* UITextField+Extension.swift in Sources */,
 				FE582B7925B57DC5005400D0 /* Int+Extension.swift in Sources */,
 				FE39D93125B7F62F0013B2C4 /* Float+Extension.swift in Sources */,
 				FE39D95025B9603B0013B2C4 /* UIView+Extension.swift in Sources */,
 				CBC94EE031A0110DCE7AEE35D27A8419 /* WPExtension-dummy.m in Sources */,
+				FE39D96F25B978290013B2C4 /* UIStackView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,7 +488,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/WPExtension/WPExtension-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/WPExtension/WPExtension-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/WPExtension/WPExtension.modulemap";
 				PRODUCT_MODULE_NAME = WPExtension;
@@ -704,7 +712,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/WPExtension/WPExtension-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/WPExtension/WPExtension-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/WPExtension/WPExtension.modulemap";
 				PRODUCT_MODULE_NAME = WPExtension;

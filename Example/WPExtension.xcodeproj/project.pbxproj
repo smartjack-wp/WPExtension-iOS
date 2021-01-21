@@ -18,6 +18,7 @@
 		FE39D93625B7FD110013B2C4 /* FloatExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE39D93525B7FD110013B2C4 /* FloatExtensionTests.swift */; };
 		FE39D93E25B80B410013B2C4 /* import.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE39D93D25B80B410013B2C4 /* import.swift */; };
 		FE39D95525B9610D0013B2C4 /* UIViewExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE39D95425B9610D0013B2C4 /* UIViewExtensionTests.swift */; };
+		FE39D95F25B972BC0013B2C4 /* UITextFieldExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE39D95E25B972BC0013B2C4 /* UITextFieldExtensionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		FE39D93525B7FD110013B2C4 /* FloatExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatExtensionTests.swift; sourceTree = "<group>"; };
 		FE39D93D25B80B410013B2C4 /* import.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = import.swift; sourceTree = "<group>"; };
 		FE39D95425B9610D0013B2C4 /* UIViewExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensionTests.swift; sourceTree = "<group>"; };
+		FE39D95E25B972BC0013B2C4 /* UITextFieldExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				FE39D91E25B7E1570013B2C4 /* IntExtensionTests.swift */,
 				FE39D93525B7FD110013B2C4 /* FloatExtensionTests.swift */,
 				FE39D95425B9610D0013B2C4 /* UIViewExtensionTests.swift */,
+				FE39D95E25B972BC0013B2C4 /* UITextFieldExtensionTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 			files = (
 				FE39D91F25B7E1570013B2C4 /* IntExtensionTests.swift in Sources */,
 				FE39D93625B7FD110013B2C4 /* FloatExtensionTests.swift in Sources */,
+				FE39D95F25B972BC0013B2C4 /* UITextFieldExtensionTests.swift in Sources */,
 				FE39D95525B9610D0013B2C4 /* UIViewExtensionTests.swift in Sources */,
 				FE39D93E25B80B410013B2C4 /* import.swift in Sources */,
 			);
