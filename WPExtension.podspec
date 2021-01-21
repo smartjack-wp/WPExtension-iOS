@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'WPExtension'
-  s.version          = '0.1.2'
+  s.version          = '1.0.0'
   s.summary          = 'WP Extension Library'
   s.description      = 'Work and Play Extension is Smartjack Library' 
   s.homepage         = 'https://github.com/smartjack-wp/WPExtension-iOS'
