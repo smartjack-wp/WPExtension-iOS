@@ -21,6 +21,8 @@
 		FE39D95F25B972BC0013B2C4 /* UITextFieldExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE39D95E25B972BC0013B2C4 /* UITextFieldExtensionTests.swift */; };
 		FE52857B25BAA86A00B1DB4C /* UIStackViewExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52857A25BAA86A00B1DB4C /* UIStackViewExtensionTests.swift */; };
 		FE52857F25BAABEC00B1DB4C /* UIImageExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52857E25BAABEC00B1DB4C /* UIImageExtensionTests.swift */; };
+		FE52858825BAB5EE00B1DB4C /* ArrayExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52858725BAB5EE00B1DB4C /* ArrayExtensionTests.swift */; };
+		FE52859425BAB78A00B1DB4C /* UITextViewExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52859325BAB78A00B1DB4C /* UITextViewExtensionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		FE39D95E25B972BC0013B2C4 /* UITextFieldExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensionTests.swift; sourceTree = "<group>"; };
 		FE52857A25BAA86A00B1DB4C /* UIStackViewExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewExtensionTests.swift; sourceTree = "<group>"; };
 		FE52857E25BAABEC00B1DB4C /* UIImageExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensionTests.swift; sourceTree = "<group>"; };
+		FE52858725BAB5EE00B1DB4C /* ArrayExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensionTests.swift; sourceTree = "<group>"; };
+		FE52859325BAB78A00B1DB4C /* UITextViewExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewExtensionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +139,10 @@
 				FE39D93525B7FD110013B2C4 /* FloatExtensionTests.swift */,
 				FE39D95425B9610D0013B2C4 /* UIViewExtensionTests.swift */,
 				FE39D95E25B972BC0013B2C4 /* UITextFieldExtensionTests.swift */,
+				FE52859325BAB78A00B1DB4C /* UITextViewExtensionTests.swift */,
 				FE52857A25BAA86A00B1DB4C /* UIStackViewExtensionTests.swift */,
 				FE52857E25BAABEC00B1DB4C /* UIImageExtensionTests.swift */,
+				FE52858725BAB5EE00B1DB4C /* ArrayExtensionTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -365,8 +371,10 @@
 				FE39D91F25B7E1570013B2C4 /* IntExtensionTests.swift in Sources */,
 				FE39D93625B7FD110013B2C4 /* FloatExtensionTests.swift in Sources */,
 				FE52857F25BAABEC00B1DB4C /* UIImageExtensionTests.swift in Sources */,
+				FE52858825BAB5EE00B1DB4C /* ArrayExtensionTests.swift in Sources */,
 				FE39D95F25B972BC0013B2C4 /* UITextFieldExtensionTests.swift in Sources */,
 				FE52857B25BAA86A00B1DB4C /* UIStackViewExtensionTests.swift in Sources */,
+				FE52859425BAB78A00B1DB4C /* UITextViewExtensionTests.swift in Sources */,
 				FE39D95525B9610D0013B2C4 /* UIViewExtensionTests.swift in Sources */,
 				FE39D93E25B80B410013B2C4 /* import.swift in Sources */,
 			);

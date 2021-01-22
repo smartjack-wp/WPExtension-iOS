@@ -21,6 +21,8 @@
 		FE39D96325B974760013B2C4 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE39D96225B974760013B2C4 /* UITextField+Extension.swift */; };
 		FE39D96F25B978290013B2C4 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE39D96E25B978290013B2C4 /* UIStackView+Extension.swift */; };
 		FE52856E25BAA57500B1DB4C /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52856D25BAA57400B1DB4C /* UIImage+Extension.swift */; };
+		FE52858325BAB59100B1DB4C /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52858225BAB59100B1DB4C /* Array+Extension.swift */; };
+		FE52858C25BAB6CB00B1DB4C /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52858B25BAB6CB00B1DB4C /* UITextView+Extension.swift */; };
 		FE582B7925B57DC5005400D0 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE582B7825B57DC5005400D0 /* Int+Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +81,8 @@
 		FE39D96225B974760013B2C4 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		FE39D96E25B978290013B2C4 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
 		FE52856D25BAA57400B1DB4C /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		FE52858225BAB59100B1DB4C /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		FE52858B25BAB6CB00B1DB4C /* UITextView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
 		FE582B7825B57DC5005400D0 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -240,8 +244,10 @@
 				FE39D93025B7F62F0013B2C4 /* Float+Extension.swift */,
 				FE39D94F25B9603B0013B2C4 /* UIView+Extension.swift */,
 				FE39D96225B974760013B2C4 /* UITextField+Extension.swift */,
+				FE52858B25BAB6CB00B1DB4C /* UITextView+Extension.swift */,
 				FE39D96E25B978290013B2C4 /* UIStackView+Extension.swift */,
 				FE52856D25BAA57400B1DB4C /* UIImage+Extension.swift */,
+				FE52858225BAB59100B1DB4C /* Array+Extension.swift */,
 			);
 			name = Classes;
 			path = WPExtension/Classes;
@@ -409,8 +415,10 @@
 				FE582B7925B57DC5005400D0 /* Int+Extension.swift in Sources */,
 				FE39D93125B7F62F0013B2C4 /* Float+Extension.swift in Sources */,
 				FE39D95025B9603B0013B2C4 /* UIView+Extension.swift in Sources */,
+				FE52858C25BAB6CB00B1DB4C /* UITextView+Extension.swift in Sources */,
 				CBC94EE031A0110DCE7AEE35D27A8419 /* WPExtension-dummy.m in Sources */,
 				FE39D96F25B978290013B2C4 /* UIStackView+Extension.swift in Sources */,
+				FE52858325BAB59100B1DB4C /* Array+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
