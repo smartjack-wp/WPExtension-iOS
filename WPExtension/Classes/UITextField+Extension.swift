@@ -12,6 +12,8 @@ public extension UITextField {
     /**
      자동완성, 첫번째 문자 대문자 등등 Keyboard에 덧붙여지는 기능들을 제외한다.
      
+     [ UITextField , UITextView 에 구현됨 ]
+     
      How
      ===
      textField.setNeatKeyboard()
