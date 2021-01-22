@@ -191,6 +191,7 @@ public extension UIStackView {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
         view.backgroundColor = color
+        view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         view.layer.zPosition = -1
         
         self.addSubview(view)
