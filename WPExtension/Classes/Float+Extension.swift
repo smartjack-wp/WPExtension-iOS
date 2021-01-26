@@ -65,7 +65,9 @@ public extension Float {
         result += intString
         result += "."
         
-        let integerDecimalValue = Int(decimalString[decimalString.startIndex..<decimalString.index(decimalString.startIndex, offsetBy: stringEndIndexOffset)]) ?? 0
+        guard let integerDecimalValue = Int(decimalString[decimalString.startIndex..<decimalString.index(decimalString.startIndex, offsetBy: stringEndIndexOffset)]) else {
+            return ""
+        }
         
         if integerDecimalValue == 0 {
             result += String(integerDecimalValue)
