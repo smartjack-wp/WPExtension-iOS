@@ -41,6 +41,99 @@ public extension Date {
         case serverDate = "yyyy-MM-dd'T'HH:mm:ss.SSZ"
     }
     /**
+     date 가 오늘 날짜를 지칭하는지 확인한다.
+     
+     How
+     ===
+     date.isToday
+     
+     TestCase
+     ===
+     ```
+     nowDate.isToday == true
+     pastDate.isToday == false
+     
+     ```
+     
+     Additional Information
+     ===
+     Added Version : v1.0.0
+     
+     Author : onemoon
+     */
+    var isToday: Bool {
+        return Calendar.current.isDateInToday(self)
+    }
+    /**
+     date의 년도를 나타낸다.
+     
+     How
+     ===
+     date.year
+     
+     TestCase
+     ===
+     ```
+     date(2021.1.27).year == 2021
+     
+     ```
+     
+     Additional Information
+     ===
+     Added Version : v1.0.0
+     
+     Author : onemoon
+     */
+    var year: Int {
+        return Calendar.current.component(.year, from: self)
+    }
+    /**
+     date의 월을 나타낸다.
+     
+     How
+     ===
+     date.month
+     
+     TestCase
+     ===
+     ```
+     date(2021.1.27).month == 1
+     
+     ```
+     
+     Additional Information
+     ===
+     Added Version : v1.0.0
+     
+     Author : onemoon
+     */
+    var month: Int {
+        return Calendar.current.component(.month, from: self)
+    }
+    /**
+     date의 일을 나타낸다.
+     
+     How
+     ===
+     date.day
+     
+     TestCase
+     ===
+     ```
+     date(2021.1.27).day == 27
+     
+     ```
+     
+     Additional Information
+     ===
+     Added Version : v1.0.0
+     
+     Author : onemoon
+     */
+    var day: Int {
+        return Calendar.current.component(.day, from: self)
+    }
+    /**
      Date 를 나타내는 스트링이 사용된 패턴으로 인식되면 Date 형식으로 생성된다.
      
      - Parameter dateString: Date 를 나타내는 스트링

@@ -43,11 +43,49 @@ class DateExtensionTests: XCTestCase {
             
             XCTAssertEqual(testDate.formattedString("yyyy-MM-dd"), "2021-01-26")
         } else {
-            XCTFail()
+            XCTFail("Date initializer Problem")
         }
     }
     
     func testPatternizedString() {
-        XCTAssertEqual(nowDate.formattedString(.dotDate), "2021.01.26")
+        if let testDate = Date(year: 2021, month: 1, day: 27) {
+            XCTAssertEqual(testDate.formattedString(.dotDate), "2021.01.27")
+        } else {
+            XCTFail("Date initializer Problem")
+        }
+        
+    }
+    
+    func testIsToday() {
+        XCTAssertTrue(nowDate.isToday)
+        if let testDate = Date(year: 2021, month: 1, day: 27) {
+            XCTAssertFalse(testDate.isToday)
+        } else {
+            XCTFail("Date initializer Problem")
+        }
+    }
+    
+    func testYear() {
+        if let testDate = Date(year: 2021, month: 1, day: 27) {
+            XCTAssertEqual(testDate.year, 2021)
+        } else {
+            XCTFail("Date initializer Problem")
+        }
+    }
+    
+    func testMonth() {
+        if let testDate = Date(year: 2021, month: 1, day: 27) {
+            XCTAssertEqual(testDate.month, 1)
+        } else {
+            XCTFail("Date initializer Problem")
+        }
+    }
+    
+    func testDay() {
+        if let testDate = Date(year: 2021, month: 1, day: 27) {
+            XCTAssertEqual(testDate.day, 27)
+        } else {
+            XCTFail("Date initializer Problem")
+        }
     }
 }
