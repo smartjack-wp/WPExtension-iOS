@@ -40,7 +40,7 @@ public extension UIImage {
      Author : onemoon
      */
     func base64EncodedSourceString(compressionQuailty: CGFloat) -> String? {
-        guard compressionQuailty > 0, compressionQuailty <= 1, let imageData = UIImageJPEGRepresentation(self, compressionQuailty) else { return nil }
+        guard compressionQuailty > 0, compressionQuailty <= 1, let imageData = self.jpegData(compressionQuality: compressionQuailty) else { return nil }
         return "data:image/png;base64,\(imageData.base64EncodedString(options: .lineLength64Characters))"
     }
 }
