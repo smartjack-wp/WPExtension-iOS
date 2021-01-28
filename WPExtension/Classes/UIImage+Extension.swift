@@ -12,7 +12,7 @@ public extension UIImage {
      이미지를 base64 encoding된 텍스트를 포함한 소스 텍스트로 변환한다.
      
      - Parameter params: 이미지 압축 비율
-     - Returns:
+     - Returns: 소스텍스트가 포함된 스트링
      
      이미지 압축 비율은 0부터 1까지 가능하며 낮을수록 화질이 안좋아진다.
      
