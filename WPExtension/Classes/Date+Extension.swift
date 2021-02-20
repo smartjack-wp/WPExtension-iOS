@@ -134,6 +134,35 @@ public extension Date {
         return Calendar.current.component(.day, from: self)
     }
     /**
+     date의  월의 마지막 날을 나타낸다.
+     
+     마지막 날을 나타낼 수 없을 경우 nill
+     
+     How
+     ===
+     date.lastDayOfMonth
+     
+     TestCase
+     ===
+     ```
+     Date(year: 2021, month: 2, day: 1).lastDayOfMonth
+     Date(year: 2024, month: 2, day: 1).lastDayOfMonth
+     Date(year: 2021, month: 12, day: 31).lastDayOfMonth
+     ```
+     
+     Additional Information
+     ===
+     Added Version : v1.0.0
+     
+     Author : dvhuni
+    */
+    var lastDayOfMonth: Int? {
+        guard let firstDayFormattedDate = Date(year: self.year, month: self.month, day: 1),
+              let calculatedDate = Calendar.current.date(byAdding: DateComponents(month: 1, day: -1), to: firstDayFormattedDate)
+        else { return nil }
+        return calculatedDate.day
+    }
+    /**
      Date 를 나타내는 스트링이 사용된 패턴으로 인식되면 Date 형식으로 생성된다.
      
      - Parameter dateString: Date 를 나타내는 스트링
