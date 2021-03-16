@@ -152,7 +152,7 @@ public extension Date {
      
      Additional Information
      ===
-     Added Version : v1.0.0
+     Added Version : v1.0.1
      
      Author : dvhuni
     */
