@@ -25,6 +25,7 @@
 		FE52858325BAB59100B1DB4C /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52858225BAB59100B1DB4C /* Array+Extension.swift */; };
 		FE52858C25BAB6CB00B1DB4C /* UITextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE52858B25BAB6CB00B1DB4C /* UITextView+Extension.swift */; };
 		FE582B7925B57DC5005400D0 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE582B7825B57DC5005400D0 /* Int+Extension.swift */; };
+		FEEF89942600799C00E76EAE /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF89932600799C00E76EAE /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		FE52858225BAB59100B1DB4C /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		FE52858B25BAB6CB00B1DB4C /* UITextView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Extension.swift"; sourceTree = "<group>"; };
 		FE582B7825B57DC5005400D0 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		FEEF89932600799C00E76EAE /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +253,7 @@
 				FE52856D25BAA57400B1DB4C /* UIImage+Extension.swift */,
 				FE52858225BAB59100B1DB4C /* Array+Extension.swift */,
 				FE52333725BECC680011624C /* Date+Extension.swift */,
+				FEEF89932600799C00E76EAE /* UIColor+Extension.swift */,
 			);
 			name = Classes;
 			path = WPExtension/Classes;
@@ -416,6 +419,7 @@
 				FE39D96325B974760013B2C4 /* UITextField+Extension.swift in Sources */,
 				FE52856E25BAA57500B1DB4C /* UIImage+Extension.swift in Sources */,
 				FE582B7925B57DC5005400D0 /* Int+Extension.swift in Sources */,
+				FEEF89942600799C00E76EAE /* UIColor+Extension.swift in Sources */,
 				FE39D93125B7F62F0013B2C4 /* Float+Extension.swift in Sources */,
 				FE39D95025B9603B0013B2C4 /* UIView+Extension.swift in Sources */,
 				FE52333825BECC680011624C /* Date+Extension.swift in Sources */,
