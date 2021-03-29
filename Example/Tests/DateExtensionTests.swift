@@ -88,4 +88,18 @@ class DateExtensionTests: XCTestCase {
             XCTFail("Date initializer Problem")
         }
     }
+    
+    func testLastDayOfMonth() {
+        guard let lastDayOfMonth1 = Date(year: 2021, month: 2, day: 1)?.lastDayOfMonth,
+              let lastDayOfMonth2 = Date(year: 2024, month: 2, day: 1)?.lastDayOfMonth,
+              let lastDayOfMonth3 = Date(year: 2021, month: 12, day: 31)?.lastDayOfMonth
+        else {
+            XCTFail("Can not fetch last day of month at this date")
+            return
+        }
+        
+        XCTAssertEqual(lastDayOfMonth1, 28)
+        XCTAssertEqual(lastDayOfMonth2, 29)
+        XCTAssertEqual(lastDayOfMonth3, 31)
+    }
 }
